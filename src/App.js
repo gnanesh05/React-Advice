@@ -4,7 +4,6 @@ import './App.css'
 
 function App() {
 const [Advice, setAdvice] = useState('')
-const [click, setClick] = useState(false)
 useEffect(()=>{
  //console.log("Effect")
  //setAdvice(false)
